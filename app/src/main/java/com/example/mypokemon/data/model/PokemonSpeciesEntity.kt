@@ -17,7 +17,7 @@ data class PokemonSpeciesEntity(
     @SerializedName("evolves_from_species")
     val evolvesFromSpecies: EvolvesFromSpecies?,
     @SerializedName("flavor_text_entries")
-    val flavorTextEntries: List<FlavorTextEntry?>?,
+    val flavorTextEntries: List<FlavorTextEntry>,
     @SerializedName("form_descriptions")
     val formDescriptions: List<FormDescription?>?,
     @SerializedName("forms_switchable")
@@ -87,11 +87,11 @@ data class PokemonSpeciesEntity(
 
     data class FlavorTextEntry(
         @SerializedName("flavor_text")
-        val flavorText: String?, // れきだいの　おうが　つれていた。れいりょくで　ひとや　ポケモンのこころを　あやつり　したがわせる。
+        val flavorText: String, // れきだいの　おうが　つれていた。れいりょくで　ひとや　ポケモンのこころを　あやつり　したがわせる。
         @SerializedName("language")
-        val language: Language?,
+        val language: Language,
         @SerializedName("version")
-        val version: Version?
+        val version: Version
     ) {
         data class Language(
             @SerializedName("name")

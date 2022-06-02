@@ -71,6 +71,6 @@ class RemoteDataSourceImp @Inject constructor(
             } catch (e: Exception) {
                 emit(ApiResponse.Error(e.message.toString()))
             }
-        }
+        }.flowOn(Dispatchers.IO)
     }
 }

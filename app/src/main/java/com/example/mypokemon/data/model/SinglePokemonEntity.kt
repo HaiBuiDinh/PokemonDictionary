@@ -25,7 +25,7 @@ data class SinglePokemonEntity(
     @SerializedName("moves")
     val moves: List<Move?>?,
     @SerializedName("name")
-    val name: String?, // ditto
+    val name: String, // ditto
     @SerializedName("order")
     val order: Int?, // 214
     @SerializedName("past_types")
