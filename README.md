@@ -5,4 +5,4 @@ Pokemon Dictionary is an application that displays a list of pokemon from the AP
 ![ScreenShot](/docs/overview.jpg)
 
 # Download test apk:
-* [PokemonDictionary.apk](https://github.com/HaiBuiDinh/PokemonDictionary/raw/main/docs/PokemonDictionary.apk "download")
+* [PokemonDictionary.apk](https://github.com/HaiBuiDinh/PokemonDictionary/main/docs/PokemonDictionary.apk)
