@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        app:cardBackgroundColor="@color/card_background"
+        app:cardBackgroundColor="@color/background_splash"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp">
 
@@ -35,7 +35,7 @@
                 android:scrollHorizontally="true"
                 android:singleLine="true"
                 app:stat_pokemon_string="@{pokeStats}"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 app:stats_pokemon="@{pokeStats}"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"

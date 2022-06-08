@@ -1,5 +1,6 @@
 package com.example.mypokemon.ui.adapter
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -14,6 +15,8 @@ class ItemPokeStatsAdapter: RecyclerView.Adapter<ItemPokeStatsAdapter.MyViewHold
         fun bind(statPoke: SinglePokemonEntity.Stat) {
             binding.pokeStats = statPoke
             binding.executePendingBindings()
+            binding.pbStatsProgress.progressDrawable.setColorFilter(
+                Color.BLACK, android.graphics.PorterDuff.Mode.SRC_IN)
         }
     }
 

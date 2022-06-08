@@ -6,7 +6,9 @@
         <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/drawable/ic__56059.xml" value="0.2085" />
         <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/drawable/ic_pokeball_pokemon_svgrepo_com.xml" value="0.2085" />
         <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/layout/fragment_detail.xml" value="0.22644927536231885" />
-        <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/layout/item_pokemon_stats.xml" value="0.36770833333333336" />
+        <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/layout/fragment_home.xml" value="0.371875" />
+        <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/layout/item_pokemon_list.xml" value="0.371875" />
+        <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/layout/item_pokemon_stats.xml" value="0.33" />
         <entry key="..\:/FromSSToHome/MyPokemon/MyPokemon/app/src/main/res/layout/item_pokemon_types.xml" value="0.22644927536231885" />
       </map>
     </option>
